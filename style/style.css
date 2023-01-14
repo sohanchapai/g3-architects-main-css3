@@ -1,12 +1,18 @@
 /* ******* font text type****** */
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@500&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+ body{font-family: 'Work Sans', sans-serif;} 
+
+
+
 .main-section{
     background-color: rgba(255, 144, 14, 0.1);
-    /* padding-left: 2%; */
+
+    
 }
 .header{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 30px 60px;
 }
 .heder-topic{
     display: flex;
@@ -14,8 +20,10 @@
 }
 .section-one{
     text-align: center;
+    
    
 }
+
 .section-one-title{
     font-weight: 700;
 font-size: 64px;
@@ -33,6 +41,9 @@ border-radius: 7px;
 
 
 }
+.button-padding{
+    padding-top: 20px;
+}
 .section-one-img{
     text-align: center;
     padding-top: 40px;
@@ -45,6 +56,10 @@ border-radius: 7px;
     padding-top: 40px;
      margin: 0 200px; 
      gap: 20px;
+}
+.second-banner-title{
+    font-weight: 500;
+font-size: 45px;
 }
 .second-section-img{
     display: grid;
@@ -61,8 +76,8 @@ border-radius: 7px;
      margin: 0 200px; 
      gap: 20px;
 }
-.third-section-paragrap{
-    gap: 40px;
+.third-section-paragrap h3{
+    padding-top: 50px;
 }
 .third-section-img{
     width: 1502px;
@@ -80,14 +95,15 @@ border-radius: 7px;
 }
 .button-position{
     position: absolute;
-width: 800px;
-height: 1059px;
+width: 980px;
+
 left: 880px;
-top: 2792px;
+top: 2870px;
 }
 /* some facts style */
 .some-facts{
-    padding-left: 60px;
+    padding-left: 100px;
+    padding-bottom: 0px;
 }
 /* forth section style */
 .forth-section{
@@ -112,31 +128,81 @@ border-radius: 10px;
 /* fifth section */
 .fifth-section{
     text-align: center;
+    margin-top: 100px;
+    padding-top: 30px;
 }
 
 .sponcors{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    color: darkgray;
+    margin-top: 20px;
 }
+.sponcors img{
+       -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+}
+
 
 /* footer style */
 
-.footer{
-    background-color: #FFF4E7;
-    margin-top: 20px;
-    text-align: center;
+.bottom{
+    
+    margin: 0 auto;
+    background-color: #727272;
     padding: 50px 100px;
+    margin-top: 60px;
+    margin-right: auto;
+    text-align: left;
+    
 }
-.sponcors img {
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
-  }
+.my-plans-info-bottom{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    gap: 40px;
+    background: cover;
+    
+}
+.submit-button{
+    background-color:white;
+    border: 0;
+    color: black;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+    border-radius:5px;}
 
+.cottom-text-color{
+    color: black;
+    text-align: left;
+    width: 450px;
+}
+
+.subscribe{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
 input{
     height: 45px;
     width: 300px;
-    background-color: black;
-    color: #ffffff;
+    background-color: white;
+    color: black;
     border-radius:8px;
 }
+
+/*----------------------------- responsive------------------------- */
+
+@media screen and (max-width: 576px) {
+    .header{
+        display: grid;
+        grid-template-rows: repeat(4, 2fr);
+    }
+    .section-one-img{
+        width: 100%;
+    }
+
+    
+}
+
+
