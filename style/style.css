@@ -57,6 +57,14 @@ border-radius: 7px;
      margin: 0 200px; 
      gap: 20px;
 }
+.features{
+    border-left: 4px solid #FF900E;
+    padding-left: 40px;
+}
+.features-title{
+    font-weight: 700;
+    font-size: 45px;
+}
 .second-banner-title{
     font-weight: 500;
 font-size: 45px;
