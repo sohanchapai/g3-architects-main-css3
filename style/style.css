@@ -103,6 +103,11 @@ height: 1059px;
     padding: 10px 15px;
 height: 100px;
 border-radius: 7px; 
+transition: width 0.5s, height 0.5s;
+}
+.Experience-button:hover{
+    width: 190px;
+    height: 110px;
 }
 .button-position{
     position: absolute;
