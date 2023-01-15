@@ -134,6 +134,7 @@ border-radius: 10px;
 .forth-section-banner:hover{
     width: 270px;
     height: 230px;
+ background-color: beige;
 }
 .box-containt{
     align-items: center;
@@ -209,16 +210,5 @@ input{
 
 /*----------------------------- responsive------------------------- */
 
-@media screen and (max-width: 576px) {
-    .header{
-        display: grid;
-        grid-template-rows: repeat(4, 2fr);
-    }
-    .section-one-img{
-        width: 100%;
-    }
-
-    
-}
 
 
